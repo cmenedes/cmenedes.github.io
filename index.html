@@ -8,11 +8,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel = "stylesheet" href="./src/css/main.css">
-  <style>
+  
 
+  <style>
+    .modal-content {
+      display: none;
+    }
+    .col-sm-3:hover {
+    border: 2px solid cadetblue;
+}
   </style>
 </head>
 <body>
+
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -59,11 +67,11 @@
     </div>
     <div class="col-sm-3"> 
         <p>Points of Dispensing Finder</p>
-        <a href="https://github.com/timkeane/pods" target="__blank"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Points of Dispensing Finder"></a>
+        <a href="https://github.com/timkeane/pods" target="__blank"><img src="./src/img/pods-img.PNG" class="img-responsive" style="width:100%" alt="Points of Dispensing Finder"></a>
     </div>
     <div class="col-sm-3">
-      <p>Lighthouse - CUNY Hackathon 2017 First Prize</p>
-      <a href="https://home-team.mybluemix.net/map" target="__blank"><img src="./src/img/lighthouse-img.PNG" class="img-responsive" style="width:100%" alt="Lighthouse - CUNY Hackathon 2017 First Prize"></a>
+      <p>Lighthouse - CUNY Hackathon 2017 1st Prize</p>
+      <a href="https://home-team.mybluemix.net/map" target="__blank"><img src="./src/img/lighthouse-img.PNG" class="img-responsive" style="width:100%" alt="Lighthouse - CUNY Hackathon 2017 1st Prize"></a>
     </div>
   </div>
 </div><br>
@@ -88,6 +96,7 @@
     </div>
   </div>
 </div><br>
+<script src="src/js/Modal.js"></script>
 
 <footer class="container-fluid text-center">
   <p>Footer Text</p>
