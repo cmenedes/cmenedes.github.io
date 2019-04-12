@@ -10,6 +10,7 @@ class Modal {
     })
     var me = this
     $('.col-sm-3').on('click', function(e) {
+      e.preventDefault()
       me.setModalContent(this.id)
     })
   }
