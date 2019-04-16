@@ -25,3 +25,18 @@ li {
 .col-sm-3 p {
   font-style: italic;
 }
+
+.modal-content {
+  display: none;
+}
+.col-sm-3:hover {
+  border: 2px solid cadetblue;
+}
+.col-sm-3 {
+  border: 2px solid transparent;
+}
+
+#myModal {
+  width: 50%;
+  margin: auto;
+}

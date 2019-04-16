@@ -6,7 +6,7 @@ class Modal {
     $('.col-sm-3').attr('data-target', '#myModal')
 
     $('.col-sm-3').each(function(i) {
-      $(this).attr('id', 'modal-' + parseInt(i))
+      $(this).attr('id', parseInt(i))
     })
     var me = this
     $('.col-sm-3').on('click', function(e) {
@@ -16,11 +16,21 @@ class Modal {
   }
 
   setModalContent(id) {
+    let found = data.find(item => item.id === id)
+    // find object by id and insert into modal
+    // console.warn(found.title)
+    // console.warn(found.link)
+    // console.warn(found.tech)    
+    // console.warn(found.description)
+   
     $('.modal-content').css('display', 'block');
     $('.modal-title').html($(`#${id}>p`).html())
     $('.modal-body #link>p').html($(`#${id}>a`).attr('href'))
     $('.modal-body #tech>p').html('')
     $('.modal-body #desc>p').html('')
+
+
+
   }
 }
 
