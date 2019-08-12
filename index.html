@@ -25,9 +25,9 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="src/views/music.html">My Music</a></li>
-        <li><a href="#">Contact</a></li>
+        <li id='about'><a href="#">About</a></li>
+        <li id='music'><a href="src/views/music.html">My Music</a></li>
+        <li id='contact'><a href="src/views/contact.html">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -107,6 +107,15 @@
     <a href="http://www.hitwebcounter.com" title="" target="_blank" style="font-family: ; font-size: px; color: #; text-decoration:  ;"><>                                        </>
     </a>                          
 </footer>
-
+<script>
+    function setActive(element) {
+      $(element).addClass('active')
+    }
+    $('li#about').on('click', (element) => {
+      console.log('clicked')
+      setActive(element)
+    })
+    
+  </script>
 </body>
 </html>
