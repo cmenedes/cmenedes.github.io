@@ -18,18 +18,25 @@ class Modal {
   setModalContent(id) {
     let found = data.find(item => item.id === id)
     // find object by id and insert into modal
-    // console.warn(found.title)
-    // console.warn(found.link)
-    // console.warn(found.tech)    
-    // console.warn(found.description)
    
+    this.title = found.title
+    this.link = found.link
+    this.tech = found.tech
+    this.description = found.description
+    this.img = found.img
+
     $('.modal-content').css('display', 'block');
     $('.modal-title').html($(`#${id}>p`).html())
     $('.modal-body #link>p').html($(`#${id}>a`).attr('href'))
-    $('.modal-body #tech>p').html('')
-    $('.modal-body #desc>p').html('')
-
-
+    $('.modal-body #tech>p').html(this.tech)
+    $('.modal-body #desc>p').html(this.description)
+    $('.modal-body #img>p').html(this.description)
+ 
+    for(let i = 0; i < this.img.length; i++) {
+      let img = new Image(300,300)
+      img.src = this.img[i]
+      $('.modal-body #img').append(img)
+    }
 
   }
 }
@@ -54,6 +61,9 @@ Modal.HTML =
       '<div id="link">' +
         '<h4>Links</h4>' +
         '<p></p>' +
+      '</div>' +
+      '<div id="img">' +
+        '<h4>Screenshots</h4>' +
       '</div>' +
     '</div>' +
     '<div class="modal-footer">' +
