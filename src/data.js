@@ -1,35 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Safe Surfing",
+    subtitle: "Retro Arcade Game Jam Winner",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "I worked in a team of 3 - 5 over the course of 2 weeks to create Safe Surfing, a Galaga style game where the user has to protect their computer by shooting at viruses. This was part of a game jam hosted by a gaming charity called Games for Love. Our team placed 1st/2nd in all of the available voting categories, and was selected for integration into a VR game that is still pending.",
+    image: "./safesurfing.gif",
+    link: "https://bkgamedevs.itch.io/safe-surfing",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "nyc-lib",
+    subtitle: "Finder App Templates",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "nyc-lib is a library that I maintain as part of my work on the GIS team at DoITT. The library can be used to create templated mapping applications, to which I have created many that are widely available to the public in nyc.",
+    image: "./nyc-lib.gif",
+    link: "https://maps.nyc.gov/nyc-lib",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Nentor",
+    subtitle: "Mentor/Education App",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "I'm currently serving as a technical project manager for Nentor, a small early stage startup designed to connect mentors & mentees in varying career fields.",
+    image: "./nentor.gif",
+    link: "https://nentor.org",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "BKGameDevs",
+    subtitle: "Twitch Channel",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "A couple of friends and myself run a Twitch channel dedicated to showing viewers the world of game development. We've worked on one game so far, Wake Up, which will be published to itch.io soon. Stay tuned to check out our next game, which will be a Metroidvania inspired by Hollow Knight & Super Metroid.",
+    image: "./twitch.gif",
+    link: "https://twitch.tv/bkgamedevs",
   },
 ];
 
