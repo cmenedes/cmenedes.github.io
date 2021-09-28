@@ -6,6 +6,7 @@ export const projects = [
       "I worked in a team of 3 - 5 over the course of 2 weeks to create Safe Surfing, a Galaga style game where the user has to protect their computer by shooting at viruses. This was part of a game jam hosted by a gaming charity called Games for Love. Our team placed 1st/2nd in all of the available voting categories, and was selected for integration into a VR game that is still pending.",
     image: "./safesurfing.gif",
     link: "https://bkgamedevs.itch.io/safe-surfing",
+    tech: "C#, Unity"
   },
   {
     title: "nyc-lib",
@@ -14,6 +15,7 @@ export const projects = [
       "nyc-lib is a library that I maintain as part of my work on the GIS team at DoITT. The library can be used to create templated mapping applications, to which I have created many that are widely available to the public in nyc.",
     image: "./nyc-lib.gif",
     link: "https://maps.nyc.gov/nyc-lib",
+    tech: "Javascript, HTML, JQuery, CSS, OpenLayers"
   },
   {
     title: "Nentor",
@@ -22,6 +24,7 @@ export const projects = [
       "I'm currently serving as a technical project manager for Nentor, a small early stage startup designed to connect mentors & mentees in varying career fields.",
     image: "./nentor.gif",
     link: "https://nentor.org",
+    tech: "Wordpress"
   },
   {
     title: "BKGameDevs",
